@@ -1,0 +1,23 @@
+Introduction:
+
+This project contains a data analysis application for Yelp.com's business data. The emphasis is on the database infrastructure of the application.
+
+Motivation:
+
+In 2013, Yelp.com has announced the "Yelp Dataset Challenge" and invited students to use this data. I was motivated to write this application to simulate what Yelp could do. 
+
+Installation:
+
+The Yelp data is available in JSON format. The original Yelp dataset includes 42,153 businesses, 252,898 users, and 1,125,458 reviews from Phoenix (AZ), Las Vegas (NV), Madison (WI) in United States and Waterloo (ON) and Edinburgh (ON) in Canada. (http://www.yelp.com/dataset_challenge/).
+
+The application populate the dataset into local MySQL server, please make sure MySQL server has been properly installed and running in your environment. 
+
+
+Tests:
+
+1. Use createdb.sql to create the database for the project.
+2. Compile populate.java and run the class to populate dataset into the MySQL database (this could take a while).
+3. Compile gui.java and run the generated class to interact with the populated database. It has a user interface that provides the user the available business categories (main, sub-categories), the attributes associated with each business category along with business review and yelp user information associated with each business category. Using this application the user could search for the businesses from various business categories that have the properties (attributes) the user is looking for.
+
+
+
